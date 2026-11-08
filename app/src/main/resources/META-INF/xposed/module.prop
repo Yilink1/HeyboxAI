@@ -1,0 +1,8 @@
+minApiVersion=100
+targetApiVersion=102
+name=小黑盒 AI 助手
+version=0.1.0
+versionCode=1
+author=Yilink1
+description=为小黑盒社区帖子提供一键 AI 总结与智能对话
+staticScope=true
