@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:description="@string/xposed_description"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HeyboxAI">
+
+        <!-- Modern libxposed / LSPosed Meta -->
+        <meta-data
+            android:name="xposedminversion"
+            android:value="100" />
+        <meta-data
+            android:name="xposedscope"
+            android:resource="@array/xposed_scope" />
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+        <meta-data
+            android:name="xposeddescription"
+            android:resource="@string/xposed_description"
+            android:value="为小黑盒社区帖子提供一键 AI 总结与智能对话" />
+
+    </application>
+
+</manifest>

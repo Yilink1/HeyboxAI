@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">小黑盒 AI 助手</string>
+    <string name="xposed_description">为小黑盒社区帖子提供一键 AI 楼层总结与智能对话</string>
+    
+    <string name="ai_service_title">AI 模型服务</string>
+    <string name="provider_title">供应商</string>
+    <string name="provider_desc">配置 API 端点与接口格式</string>
+    <string name="model_title">模型配置</string>
+    <string name="model_desc">选择或输入调用的模型名称</string>
+    <string name="shortcuts_title">快捷词管理</string>
+    <string name="shortcuts_desc">管理 AI 助手底部的快捷词</string>
+    <string name="advanced_title">高级设置</string>
+    <string name="advanced_desc">上下文楼层数与网络参数</string>
+    
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="api_key">API Key</string>
+    <string name="base_url">API Base URL</string>
+    <string name="model_name">模型名称 (Model)</string>
+</resources>
